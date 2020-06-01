@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="true">МяуТаймер</string>
+    <string name="text_SetTimer">ВЫБЕРИТЕ ВРЕМЯ</string>
+    <string name="exersize_time">0</string>
+    <string name="delay_time">0</string>
+    <string name="sets_quantity">1</string>
+    <string name="sets_number">РАУНДЫ</string>
+    <string name="colon">:</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="start">ДЛЯ СТАРТА\nЖМИТЕ ЛАПУ</string>
+    <string name="pause">ПАУЗА</string>
+    <string name="round">РАУНД </string>
+    <string name="resume">ДАЛЬШЕ</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="timer">ТАЙМЕР</string>
+    <string name="cat_timer2_s">кот</string>
+    <string name="paw">лапа</string>
+</resources>

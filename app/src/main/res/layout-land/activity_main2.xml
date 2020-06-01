@@ -1,0 +1,84 @@
+<?xml version="1.1" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/timer"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"
+        android:text="@string/round"
+        android:textAllCaps="true"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/round"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="00:00"
+        android:textSize="64sp" />
+
+    <RelativeLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/data">
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause"
+            android:onClick="onClickPause"/>
+
+        <Button
+            android:id="@+id/resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resume"
+            android:onClick="onClickResume"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/resume"
+            android:text="@string/cancel"
+            android:onClick="onClickCancel"/>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/cat2"
+        android:layout_width="231dp"
+        android:layout_height="331dp"
+        android:src="@drawable/cat_timer2_s"
+        android:contentDescription="@string/cat_timer2_s"
+        android:layout_toRightOf="@id/buttonPanel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:background="@android:color/transparent"
+        android:onClick="onClickPurr"/>
+
+</RelativeLayout>

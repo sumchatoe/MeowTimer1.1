@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">MeowTimer</string>
+    <string name="text_SetTimer">SET TIMER</string>
+    <string name="exersize_time">0</string>
+    <string name="delay_time">0</string>
+    <string name="sets_quantity">1</string>
+    <string name="sets_number">ROUNDS</string>
+    <string name="colon">:</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="start">PRESS PAW\nTO START</string>
+    <string name="pause">pause</string>
+    <string name="round">ROUND </string>
+    <string name="resume">resume</string>
+    <string name="cancel">cancel</string>
+    <string name="timer">countdown timer</string>
+    <string name="cat_timer2_s">a cat</string>
+    <string name="paw">a paw</string>
+</resources>

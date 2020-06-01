@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="true">MiaowTimer</string>
+    <string name="text_SetTimer">Seleccione tiempo</string>
+    <string name="exersize_time">0</string>
+    <string name="delay_time">0</string>
+    <string name="sets_quantity">1</string>
+    <string name="sets_number">RONDAS</string>
+    <string name="colon">:</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="start">PRESIONE\nLA PATA</string>
+    <string name="pause">pausa</string>
+    <string name="round">RONDA </string>
+    <string name="resume">seguir</string>
+    <string name="cancel">cancelar</string>
+    <string name="timer">temporizador</string>
+    <string name="cat_timer2_s">al gato</string>
+    <string name="paw">la pata</string>
+</resources>
