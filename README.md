@@ -2,4 +2,4 @@
 ![meowimer](https://github.com/sumchatoe/MeowTimer1.1/blob/master/app/src/main/mt_logo-web.png)  
 [Ссылка на приложение](https://play.google.com/store/apps/details?id=com.sumchatoe.meowtimer)
 
-{% include contact_form.html %}
+[Форма обратной связи](contact_form.html)
